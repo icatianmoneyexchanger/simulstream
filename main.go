@@ -31,7 +31,7 @@ var state = &ServerState{
 func main() {
 	port := os.Getenv("PORT")
 	if port == "" {
-		port = "8080"
+		port = "8089"
 	}
 
 	http.HandleFunc("/health", handleHealth)
